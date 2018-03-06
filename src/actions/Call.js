@@ -5,14 +5,14 @@
  */
 
 /**
- * [description]
+ * Call a function on each Game Object in the array individually.
  *
  * @function Phaser.Actions.Call
  * @since 3.0.0
  * 
  * @param {array} items - An array of Game Objects. The contents of this array are updated by this Action.
- * @param {function} callback - [description]
- * @param {object} thisArg - [description]
+ * @param {function} callback - A function which takes one argument.
+ * @param {object} thisArg - An optional value for `this` in the function call.
  *
  * @return {array} The array of Game Objects that was passed to this Action.
  */

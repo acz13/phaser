@@ -5,13 +5,13 @@
  */
 
 /**
- * [description]
+ * Increase the alpha of the Game Objects in the array.
  *
  * @function Phaser.Actions.IncAlpha
  * @since 3.0.0
  * 
  * @param {array} items - An array of Game Objects. The contents of this array are updated by this Action.
- * @param {number} value - [description]
+ * @param {number} value - The amount to increase the alpha value of the Game Objects by.
  *
  * @return {array} The array of Game Objects that was passed to this Action.
  */

@@ -7,13 +7,15 @@
 var GetPoints = require('../geom/line/GetPoints');
 
 /**
- * [description]
+ * Place the Game Objects in the array along the given line.
  *
+ * Placement starts from the first point on the line (`x1`, `y1`).
+ * 
  * @function Phaser.Actions.PlaceOnLine
  * @since 3.0.0
  * 
  * @param {array} items - An array of Game Objects. The contents of this array are updated by this Action.
- * @param {Phaser.Geom.Line} line - [description]
+ * @param {Phaser.Geom.Line} line - The line upon which to place the Game Objects.
  *
  * @return {array} The array of Game Objects that was passed to this Action.
  */

@@ -13,14 +13,21 @@ var Zone = require('../gameobjects/zone/Zone');
 var tempZone = new Zone({ sys: { queueDepthSort: NOOP }}, 0, 0, 1, 1);
 
 /**
- * [description]
+ * Align the Game Objects in the array to a rectangular grid.
  *
  * @function Phaser.Actions.GridAlign
  * @since 3.0.0
  * 
  * @param {array} items - An array of Game Objects. The contents of this array are updated by this Action.
- * @param {object} options - [description]
- *
+ * @param {object} options - An optional options object.
+ * @param {integer} options.width - The number of columns in the grid. If height is not provided, will default to one.
+ * @param {integer} options.height - The number of rows in the grid.
+ * @param {number} options.cellHeight - The height of the cells in the grid.
+ * @param {number} options.celWidth - The width of the cells in the grid.
+ * @param {integer} position - The position to align the Game Object with. This is an align constant, such as `ALIGN_CONST.LEFT_CENTER`.
+ * @param {number} x - The horizontal position of the top left corner of the grid
+ * @param {number} y - The vertical position of the top left corner of the grid
+ * 
  * @return {array} The array of Game Objects that was passed to this Action.
  */
 var GridAlign = function (items, options)

@@ -5,14 +5,14 @@
  */
 
 /**
- * [description]
+ * Scale the Game Objects in the array horizontally and vertically.
  *
  * @function Phaser.Actions.ScaleXY
  * @since 3.0.0
  * 
  * @param {array} items - An array of Game Objects. The contents of this array are updated by this Action.
- * @param {number} x - [description]
- * @param {number} y - [description]
+ * @param {number} x - The amount to scale horizontally by (negative shrinks).
+ * @param {number} y - The amount to scale vertically by (negative shrinks).
  *
  * @return {array} The array of Game Objects that was passed to this Action.
  */

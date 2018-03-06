@@ -5,14 +5,15 @@
  */
 
 /**
- * [description]
+ * Increase both the horizontal and vertical positions of the Game Objects in
+ * the array.
  *
  * @function Phaser.Actions.IncXY
  * @since 3.0.0
  * 
  * @param {array} items - An array of Game Objects. The contents of this array are updated by this Action.
- * @param {number} x - [description]
- * @param {number} y - [description]
+ * @param {number} x - The amount to increase the horizontal position of the Game Objects by.
+ * @param {number} y - The amount to increase the vertical position of the Game Objects by.
  *
  * @return {array} The array of Game Objects that was passed to this Action.
  */

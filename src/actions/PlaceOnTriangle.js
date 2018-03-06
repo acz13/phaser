@@ -8,14 +8,17 @@
 var BresenhamPoints = require('../geom/line/BresenhamPoints');
 
 /**
- * [description]
+ * Place the items in the array around the perimeter of the given triangle.
  *
+ * Items will with on coordinates determined by Bresenham's algorithm with
+ * spacing equal to `stepRate` if given.
+ * 
  * @function Phaser.Actions.PlaceOnTriangle
  * @since 3.0.0
  *
  * @param {array} items - An array of Game Objects. The contents of this array are updated by this Action.
- * @param {Phaser.Geom.Triangle} triangle - [description]
- * @param {number} [stepRate=1] - [description]
+ * @param {Phaser.Geom.Triangle} triangle - The triangle upon which to place the Game Objects.
+ * @param {number} [stepRate=1] - The distance between where Game Objects will be placed.
  *
  * @return {array} The array of Game Objects that was passed to this Action.
  */

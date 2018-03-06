@@ -5,14 +5,17 @@
  */
 
 /**
- * [description]
+ * Play the animation of the Game Objects in the array with the given key.
+ * 
+ * Animations will start on the first frame by default. You can specify the
+ * starting frame by giving `startFrame`.
  *
  * @function Phaser.Actions.PlayAnimation
  * @since 3.0.0
  * 
  * @param {array} items - An array of Game Objects. The contents of this array are updated by this Action.
- * @param {string} key - [description]
- * @param {string|integer} [startFrame] - [description]
+ * @param {string} key - The key of the animations to play.
+ * @param {string|integer} [startFrame] - The starting frame to play the animations on.
  *
  * @return {array} The array of Game Objects that was passed to this Action.
  */

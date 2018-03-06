@@ -8,21 +8,19 @@ var MarchingAnts = require('../geom/rectangle/MarchingAnts');
 var RotateLeft = require('../utils/array/RotateLeft');
 var RotateRight = require('../utils/array/RotateRight');
 
-//  Place the items in the array around the perimeter of the given rectangle.
-
-//  Placement starts from the top-left of the rectangle, and proceeds in a
-//  clockwise direction. If the shift parameter is given you can offset where
-//  placement begins.
-
 /**
- * [description]
+ * Place the items in the array around the perimeter of the given rectangle.
+
+ * Placement starts from the top-left of the rectangle, and proceeds in a
+ * clockwise direction. If the `shift` parameter is given you can offset where
+ * placement begins.
  *
  * @function Phaser.Actions.PlaceOnRectangle
  * @since 3.0.0
  * 
  * @param {array} items - An array of Game Objects. The contents of this array are updated by this Action.
- * @param {Phaser.Geom.Rectangle} rect - [description]
- * @param {integer} [shift=1] - [description]
+ * @param {Phaser.Geom.Rectangle} rect - The rectangle upon which to replace the Game Objects.
+ * @param {integer} [shift=1] - The offset of the first Game Object placed.
  *
  * @return {array} The array of Game Objects that was passed to this Action.
  */

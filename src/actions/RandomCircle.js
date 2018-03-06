@@ -7,13 +7,13 @@
 var Random = require('../geom/circle/Random');
 
 /**
- * [description]
+ * Randomly place the Game Objects in the array inside the given circle.
  *
  * @function Phaser.Actions.RandomCircle
  * @since 3.0.0
  * 
  * @param {array} items - An array of Game Objects. The contents of this array are updated by this Action.
- * @param {Phaser.Geom.Circle} circle - [description]
+ * @param {Phaser.Geom.Circle} circle - The circle to place the Game Objects inside.
  *
  * @return {array} The array of Game Objects that was passed to this Action.
  */

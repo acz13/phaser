@@ -11,16 +11,17 @@
 //  }
 
 /**
- * [description]
+ * Get the first Game Object in the array that matches the given properties.
+ * You can optionally specify the index at which to begin comparing.
  *
  * @function Phaser.Actions.GetFirst
  * @since 3.0.0
  * 
  * @param {array} items - An array of Game Objects. The contents of this array are updated by this Action.
- * @param {object} compare - [description]
- * @param {integer} index - [description]
+ * @param {object} compare - An object containing the properties and values to match
+ * @param {integer} index - An optional start index
  * 
- * @return {array} The array of Game Objects that was passed to this Action.
+ * @return {object|null} The first Game Object that matches properties of the comparison object. `null` if none are found.
  */
 var GetFirst = function (items, compare, index)
 {

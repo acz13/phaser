@@ -7,13 +7,13 @@
 var Random = require('../geom/rectangle/Random');
 
 /**
- * [description]
+ * Randomly place the Game Objects in the array inside the given rectangle.
  *
  * @function Phaser.Actions.RandomRectangle
  * @since 3.0.0
  * 
  * @param {array} items - An array of Game Objects. The contents of this array are updated by this Action.
- * @param {Phaser.Geom.Rectangle} rect - [description]
+ * @param {Phaser.Geom.Rectangle} rect - The rectangle to place the Game Objects inside.
  *
  * @return {array} The array of Game Objects that was passed to this Action.
  */

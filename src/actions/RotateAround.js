@@ -8,7 +8,7 @@ var RotateAroundDistance = require('../math/RotateAroundDistance');
 var DistanceBetween = require('../math/distance/DistanceBetween');
 
 /**
- * [description]
+ * Rotate the Game Objects in the array by the given angle around the given point.
  *
  * @function Phaser.Actions.RotateAround
  * @since 3.0.0
